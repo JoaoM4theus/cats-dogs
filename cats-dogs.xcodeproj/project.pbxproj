@@ -14,6 +14,7 @@
 		7AC894842C2CC75D00A72FE8 /* Dogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC894832C2CC75D00A72FE8 /* Dogs.swift */; };
 		7AC894882C2CC7E900A72FE8 /* DogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC894872C2CC7E900A72FE8 /* DogsViewModel.swift */; };
 		7AF079C12C34C6BB005DA4AE /* DogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC894892C2CC94A00A72FE8 /* DogsView.swift */; };
+		7AF079C32C34C754005DA4AE /* HomeDogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF079C22C34C754005DA4AE /* HomeDogsView.swift */; };
 		D89C901C2C2E172600A19D4A /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C901B2C2E172600A19D4A /* CatsViewModel.swift */; };
 		D89C901F2C2E25F900A19D4A /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C901E2C2E25F900A19D4A /* CatsView.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		7AC894832C2CC75D00A72FE8 /* Dogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs.swift; sourceTree = "<group>"; };
 		7AC894872C2CC7E900A72FE8 /* DogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewModel.swift; sourceTree = "<group>"; };
 		7AC894892C2CC94A00A72FE8 /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
+		7AF079C22C34C754005DA4AE /* HomeDogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDogsView.swift; sourceTree = "<group>"; };
 		D89C901B2C2E172600A19D4A /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
 		D89C901E2C2E25F900A19D4A /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				7AC894892C2CC94A00A72FE8 /* DogsView.swift */,
+				7AF079C22C34C754005DA4AE /* HomeDogsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				7AC894842C2CC75D00A72FE8 /* Dogs.swift in Sources */,
 				D89C901F2C2E25F900A19D4A /* CatsView.swift in Sources */,
 				7AC894742C2B8B5200A72FE8 /* cats_dogsApp.swift in Sources */,
+				7AF079C32C34C754005DA4AE /* HomeDogsView.swift in Sources */,
 				7AC894882C2CC7E900A72FE8 /* DogsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

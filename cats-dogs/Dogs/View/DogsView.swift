@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct DogsView: View {
-    @StateObject var viewModel = DogsViewModel()
+    @StateObject private var viewModel = DogsViewModel()
     
-    let columns = [
+    private let columns = [
         GridItem(.adaptive(minimum: 200, maximum: 200)),
         GridItem(.adaptive(minimum: 200, maximum: 200))
     ]
@@ -22,9 +22,11 @@ struct DogsView: View {
                     LazyVGrid(columns: columns, spacing: 10) {
                         ForEach(dogs.message, id: \.self) { element in
                             AsyncImage(url: URL(string: element)) { result in
-                                result.image?
+                                result
                                     .resizable()
                                     .scaledToFit()
+                            } placeholder: {
+                                ProgressView().progressViewStyle(.circular)
                             }
                             .cornerRadius(8)
                         }
@@ -43,7 +45,7 @@ struct DogsView: View {
                     } label: {
                         Image(systemName: "arrow.counterclockwise")
                     }
-
+                    
                 }
             }
             .navigationTitle("Dogs")
